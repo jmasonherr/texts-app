@@ -1,0 +1,14 @@
+{
+  "main.css": "/texts-app/static/css/main.6066e355.chunk.css",
+  "main.js": "/texts-app/static/js/main.ab9050d3.chunk.js",
+  "main.js.map": "/texts-app/static/js/main.ab9050d3.chunk.js.map",
+  "static/js/1.2dd891c4.chunk.js": "/texts-app/static/js/1.2dd891c4.chunk.js",
+  "static/js/1.2dd891c4.chunk.js.map": "/texts-app/static/js/1.2dd891c4.chunk.js.map",
+  "runtime~main.js": "/texts-app/static/js/runtime~main.4b8fb61a.js",
+  "runtime~main.js.map": "/texts-app/static/js/runtime~main.4b8fb61a.js.map",
+  "static/media/logo.svg": "/texts-app/static/media/logo.5d5d9eef.svg",
+  "static/css/main.6066e355.chunk.css.map": "/texts-app/static/css/main.6066e355.chunk.css.map",
+  "index.html": "/texts-app/index.html",
+  "precache-manifest.422437f66ca0a62e8e7f82ea5bc0a715.js": "/texts-app/precache-manifest.422437f66ca0a62e8e7f82ea5bc0a715.js",
+  "service-worker.js": "/texts-app/service-worker.js"
+}
