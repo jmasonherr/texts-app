@@ -1,6 +1,27 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { Container, Row, Col } from "reactstrap";
+import { Switch, Route } from "react-router-dom";
+
+import logo from "./logo.svg";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+const Other = () => (
+  <Container>
+    <Row>
+      <Col sm={{ size: 6, order: 2, offset: 1 }}>Hi</Col>
+    </Row>
+  </Container>
+);
+
+const Main = () => (
+  <main>
+    <Switch>
+      <Route exact path="/" component={App} />
+      <Route path="/other" component={Other} />
+    </Switch>
+  </main>
+);
 
 class App extends Component {
   render() {
@@ -25,4 +46,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Main;
